@@ -24,5 +24,5 @@ get_recipefile(
 Dataframe of datasets and metadata
 }
 \description{
-This function pulls a list of recipes from TCRM
+This function pulls a list of recipes from CRMA
 }

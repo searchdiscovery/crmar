@@ -30,5 +30,5 @@ get_dataset_files(
 Dataframe of datasets and metadata
 }
 \description{
-This function will pulls a list of files for a dataset from TCRM
+This function will pulls a list of files for a dataset from CRMA
 }

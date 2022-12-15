@@ -27,5 +27,5 @@ get_dataset_version(
 Dataframe of datasets and metadata
 }
 \description{
-This function will pull the version information for a dataset in TCRM
+This function will pull the version information for a dataset in CRMA
 }
