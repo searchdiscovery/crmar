@@ -5,10 +5,6 @@ email: "ben.woodard@searchdiscovery.com"
 output: pdf_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 ## Install the package 'crmar'
 ```{r}
 #using devtools
@@ -39,7 +35,8 @@ The execution user must have the API Only permission.
     d. Save your changes.
     
 #### Sample Oauth Policies
-![](images/sample_oauthpolicies.png)
+![](images/sample_oauthpolicies.jpg)
+
 ### Storing Secrets
 
 Once the connected app has been created you will need to get the 'consumer key' and 'consumer secret' from the connected app.  
@@ -73,7 +70,7 @@ crmar::crmar_auth()
 
 This is where things get a bit tricky.  The initial authorization results in a plain white browser window with the token in the URL parameter.
 
-![](images/Screen Shot 2022-12-15 at 11.09.49 AM.png)
+![](images/Screen Shot 2022-12-15 at 11.09.49 AM.jpg)
 
 Copy everything after "?code=" and paste it into the the console.
 
